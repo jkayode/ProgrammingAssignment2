@@ -1,5 +1,4 @@
-## This function makes x the value of a square invertible matrix  
-## that returns a list containing functions to
+## This function makes x the value of a square invertible matrix that returns a list containing functions to
 ##              1. set the matrix
 ##              2. get the matrix
 ##              3. set the inverse
@@ -21,8 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## To Return a matrix that is the inverse of 'x'
-## This function returns the inverse of the original matrix input 
-## to makeCacheMatrix()
+## This function returns the inverse of the original matrix input to makeCacheMatrix()
 
 cacheSolve <- function(x, ...) {
        
